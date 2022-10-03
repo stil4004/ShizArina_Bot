@@ -113,7 +113,7 @@ def bot_message(message):
             bot.send_message(message.chat.id, "Иди чаи погоняй...")
 
         elif message.text == 'На кого ты похож(по мнению Арины)':
-            img = open(f'RandomPhotos\{randint(1, 18)}.jpg', 'rb')
+            img = open(f'RandomPhotos/{randint(1, 18)}.jpg', 'rb')
             bot.send_photo(message.chat.id, img)
 
         else:

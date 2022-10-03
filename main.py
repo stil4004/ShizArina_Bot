@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 from random import randint
 
-bot = telebot.TeleBot('5652179257:AAEhLU-3aPOpFg2XT5uDNJsBybKr0EKYAhE')
+bot = telebot.TeleBot('')
 
 Hello = ["Привет", "привет", "Хай", "хай"]
 

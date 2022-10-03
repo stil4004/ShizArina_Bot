@@ -82,7 +82,7 @@ def bot_message(message):
         elif message.text in GoodNight:
             bot.send_message(message.chat.id, "СПАТЬ НХЙ")
             time.sleep(0.8)
-            img = open('Арина(спит нхй).jpg', 'rb')
+            img = open('Arina(GN).jpg', 'rb')
             bot.send_photo(message.chat.id, img)
 
         elif message.text == 'Че':
@@ -94,7 +94,7 @@ def bot_message(message):
         elif message.text == 'Похуй':
             bot.send_message(message.chat.id, "Спать нахй")
             time.sleep(0.8)
-            img = open('Арина(шлем).jpg', 'rb')
+            img = open('Arina(Helmet).jpg', 'rb')
             bot.send_photo(message.chat.id, img)
 
         elif message.text == 'Гадание':
